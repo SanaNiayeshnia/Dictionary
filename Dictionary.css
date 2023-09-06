@@ -1,0 +1,92 @@
+*{
+    font-family: "Varela Round";
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #B39DDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+background-color: white;
+margin-top: 100px;
+margin-bottom: 100px;
+min-width: 30%;
+max-width: 40%;
+padding: 20px 25px;
+box-shadow: rgb(82, 81, 81) 10px 10px 10px ;
+border-radius: 5px;
+
+
+
+}
+.search-container{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+#search-icon{
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#search-icon:active{
+   color: #7E57C2;
+transform: scale(1.1)
+}
+
+#search-box{
+    padding: 5px 7px;
+    font-size: 18px;
+    border: none;
+    border-bottom:#9575CD solid 2px ;
+    outline: 0;
+    width: 85%;
+    margin: 0 10px 25px 0;
+   
+}
+#word{
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+#volume-icon{
+    margin-left: 10px;
+    color:gray;
+    cursor: pointer;
+}
+#volume-icon:active{
+    color: #7E57C2;
+}
+
+#phonetic{
+color: gray;
+margin: 0;
+font-size: 14px;
+}
+.part-of-speech{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.meaning{
+    font-size: 16px;
+    margin-top:0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#word-box{
+    display: none;
+}
+
+#error-text{
+    font-size: 18px;
+    color: #7E57C2;
+    display: none;
+}
